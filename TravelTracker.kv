@@ -1,0 +1,52 @@
+BoxLayout:
+    BoxLayout:
+        orientation: 'vertical'
+        Label:
+            size_hint_x: 0.3
+            text: 'Sort by:'
+        Button:
+            size_hint_x: 0.3
+            text: 'Visited'
+        Label:
+            size_hint_x: 0.3
+            text: 'Add New Place...'
+        Label:
+            size_hint_x: 0.3
+            text: 'Name:'
+        TextInput:
+            id: input_name
+            size_hint_x: 0.3
+            text: ''
+        Label:
+            size_hint_x: 0.3
+            text: 'Country:'
+        TextInput:
+            id: input_country
+            size_hint_x: 0.3
+            text: ''
+        Label:
+            size_hint_x: 0.3
+            text: 'Priority:'
+        TextInput:
+            id: input_priority
+            size_hint_x: 0.3
+            text: ''
+        Button:
+            size_hint_x: 0.3
+            text: 'Add Place'
+        Button:
+            size_hint_x: 0.3
+            text: 'Clear'
+
+    BoxLayout:
+        orientation: 'vertical'
+        Button:
+            size_hint_y: 0.1
+            text: 'Place to visit'
+
+        Button:
+            text: 'Dynamic Places'
+
+        Button:
+            size_hint_y: 0.1
+            text: 'Status Visited'
